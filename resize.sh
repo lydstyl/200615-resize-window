@@ -8,4 +8,8 @@
 # wmctrl -r :ACTIVE: -e 0,-1,-1,$((1920)),$((1080))
 
 #wmctrl -r :ACTIVE: -e 0,0,0,1920,1080
-wmctrl -r :ACTIVE: -e 0,0,0,1280,720
+#wmctrl -r :ACTIVE: -e 0,0,0,1280,720
+
+
+#wmctrl -r :ACTIVE: -e 0,1280,720,1280,720 # HD in the middle of a 4K
+wmctrl -r :ACTIVE: -e 0,960,540,1920,1080 # full HD in the middle of a 4K
